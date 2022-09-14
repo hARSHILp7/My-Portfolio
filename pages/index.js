@@ -155,7 +155,7 @@ export default function Home() {
       <div className="text-center bg-[#393E59] text-[#F0F2F2] font-mono" id="ContactMe">
         <div className="py-6">
           <p className="text-[40px] mb-6 font-bold">Contact Me</p>
-          <ul className="flex flex-col justify-between max-w-[70%] md:max-w-[50%] mx-auto md:flex-row">
+          <ul className="flex flex-col justify-between max-w-[100%] md:max-w-[50%] mx-auto md:flex-row">
             <li className="mb-8 text-center md:mb-0">
               <p className="mb-2 font-bold text-[20px]">Call me on</p>
               <p className="text-[18px]">+91-9724241868</p>
