@@ -54,7 +54,7 @@ export default function Home() {
       <div className="font-mono bg-[#393E59] text-[#F0F2F2] text-center" id="AboutMe">
         <div className="pt-6 pb-10">
           <p className="text-[60px] font-bold mb-6">About Me</p>
-          <div className="flex flex-col-reverse justify-center max-w-[70%] mx-auto md:flex-row">
+          <div className="flex flex-col-reverse justify-center max-w-[90%] mx-auto md:flex-row">
             <div className="flex flex-col text-left md:text-right">
               <p className="text-[32px]">My name is Harshil Prajapati.</p>
               <p className="text-[22px] mt-4">I have 5 months of experience in front end web development and a 3 month experience as a graphic designer. I am passionate about designing and making new products using my imagination and creativity into it. I am flexible with any new technology as I am quick learner too. I also have completed online course of Adobe Illustrator and Photohsop to boost creativity in my designing.</p>
@@ -65,7 +65,7 @@ export default function Home() {
                 <p>Languages Known: English, Hindi, Gujarati</p>
               </div>
             </div>
-            <img src="MyPic.jpg" className="w-[350px] h-[350px] rounded-[30px] border-[5px] border-[#F0F2F2] ml-12 mb-4 md:mb-0" alt="" />
+            <img src="MyPic.jpg" className="w-[350px] h-[350px] rounded-[30px] border-[5px] border-[#F0F2F2] md:ml-12 mb-4 md:mb-0 mx-auto" alt="" />
           </div>
         </div>
       </div>
@@ -138,12 +138,12 @@ export default function Home() {
       <div className="font-mono text-[#010326] text-center" id="Skills">
         <div className="pt-6 pb-10">
           <p className="text-[60px] font-bold mb-6">Skills</p>
-          <div className="flex flex-col justify-between max-w-[50%] mx-auto md:flex-row">
-            <div className="w-[300px] mb-8 md:mb-0">
+          <div className="flex flex-col justify-between md:max-w-[50%] mx-auto md:flex-row">
+            <div className="w-[300px] mb-8 md:mb-0 mx-auto">
               <p className="font-bold text-[30px] mb-2">Technical Skills</p>
               <p className="text-[20px]">C++, C#, Next JS, HTML5, CSS3, Tailwindcss, JavaScript, Git, SQL, Illustrator, Photoshop</p>
             </div>
-            <div className="w-[300px]">
+            <div className="w-[300px] mx-auto">
               <p className="font-bold text-[30px] mb-2">Soft Skills</p>
               <p className="text-[20px]">Mathematics, Problem Solving, Communication</p>
             </div>
