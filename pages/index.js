@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -9,34 +10,34 @@ export default function Home() {
       <div className="sticky top-0 left-0 font-mono font-bold bg-[#393E59] text-[#F0F2F2] tracking-normal">
         <ul className="flex max-w-[65%] mx-auto justify-evenly py-4 text-lg">
           <li className="px-2 py-1">
-            <a href="/">
-              <span className="relative after:absolute after:w-[100%] after:scale-x-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#F0F2F2] after:origin-bottom-right after:transition-transform after:delay-[0.1s] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left">Home</span>
-            </a>
+            <Link href="/">
+              <span className="relative after:absolute after:w-[100%] after:scale-x-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#F0F2F2] after:origin-bottom-right after:transition-transform after:delay-[0.1s] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left cursor-pointer">Home</span>
+            </Link>
           </li>
           <li className="px-2 py-1">
-            <a href="#AboutMe">
-              <span className="relative after:absolute after:w-[100%] after:scale-x-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#F0F2F2] after:origin-bottom-right after:transition-transform after:delay-[0.1s] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left">About Me</span>
-            </a>
+            <Link href="#AboutMe">
+              <span className="relative after:absolute after:w-[100%] after:scale-x-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#F0F2F2] after:origin-bottom-right after:transition-transform after:delay-[0.1s] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left cursor-pointer">About Me</span>
+            </Link>
           </li>
           <li className="px-2 py-1">
-            <a href="#Education">
-              <span className="relative after:absolute after:w-[100%] after:scale-x-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#F0F2F2] after:origin-bottom-right after:transition-transform after:delay-[0.1s] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left">Education</span>
-            </a>
+            <Link href="#Education">
+              <span className="relative after:absolute after:w-[100%] after:scale-x-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#F0F2F2] after:origin-bottom-right after:transition-transform after:delay-[0.1s] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left cursor-pointer">Education</span>
+            </Link>
           </li>
           <li className="px-2 py-1">
-            <a href="#WorkExperience">
-              <span className="relative after:absolute after:w-[100%] after:scale-x-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#F0F2F2] after:origin-bottom-right after:transition-transform after:delay-[0.1s] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left">Work Experience</span>
-            </a>
+            <Link href="#WorkExperience">
+              <span className="relative after:absolute after:w-[100%] after:scale-x-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#F0F2F2] after:origin-bottom-right after:transition-transform after:delay-[0.1s] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left cursor-pointer">Work Experience</span>
+            </Link>
           </li>
           <li className="px-2 py-1">
-            <a href="#Skills">
-              <span className="relative after:absolute after:w-[100%] after:scale-x-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#F0F2F2] after:origin-bottom-right after:transition-transform after:delay-[0.1s] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left">Skills</span>
-            </a>
+            <Link href="#Skills">
+              <span className="relative after:absolute after:w-[100%] after:scale-x-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#F0F2F2] after:origin-bottom-right after:transition-transform after:delay-[0.1s] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left cursor-pointer">Skills</span>
+            </Link>
           </li>
           <li className="px-2 py-1">
-            <a href="#ContactMe">
-              <span className="relative after:absolute after:w-[100%] after:scale-x-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#F0F2F2] after:origin-bottom-right after:transition-transform after:delay-[0.1s] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left">Contact Me</span>
-            </a>
+            <Link href="#ContactMe">
+              <span className="relative after:absolute after:w-[100%] after:scale-x-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#F0F2F2] after:origin-bottom-right after:transition-transform after:delay-[0.1s] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left cursor-pointer">Contact Me</span>
+            </Link>
           </li>
         </ul>
       </div>
@@ -44,7 +45,7 @@ export default function Home() {
       {/* Role */}
       <div className="w-full mx-auto font-mono text-center text-[#010326]" id="Role">
         <div className="py-[310px] ml-12">
-            <p className="text-[58px]">I'm a</p>
+            <p className="text-[58px]">I am a</p>
             <p className="text-[68px] font-bold">Front End Web Developer</p>
         </div>
       </div>
