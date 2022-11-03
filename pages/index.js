@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 export default function Home() {
@@ -167,9 +164,9 @@ export default function Home() {
             <li className="text-center">
               <p className="mb-2 font-bold text-[14px] md:text-[20px]">Social Media Links</p>
               <div className="flex justify-center">
-                <a href="https://www.linkedin.com/in/harshil-prajapati-0b099b1b6/"><img src="linkedin.png" className="w-4 mr-6 md:w-6" /></a>
-                <a href="https://github.com/hARSHILp7"><img src="github.png" className="w-4 mr-6 md:w-6" /></a>
-                <a href="https://www.instagram.com/__harshil__31/"><img src="instagram.png" className='w-4 md:w-6' /></a>
+                <a href="https://www.linkedin.com/in/harshil-prajapati-0b099b1b6/"><img src="linkedin.png" className="w-4 mr-6 md:w-6 scale-[0.8] hover:scale-[1]" /></a>
+                <a href="https://github.com/hARSHILp7"><img src="github.png" className="w-4 mr-6 md:w-6 scale-[0.8] hover:scale-[1]" /></a>
+                <a href="https://www.instagram.com/__harshil__31/"><img src="instagram.png" className="w-4 md:w-6 scale-[0.8] hover:scale-[1]" /></a>
               </div>
             </li>
           </ul>
